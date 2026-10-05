@@ -133,6 +133,15 @@
         text-decoration: none;
         letter-spacing: -0.02em;
       }
+      .mono {
+        overflow: hidden;
+      }
+      .mono img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
       .nav nav {
         display: flex;
         align-items: center;
@@ -1146,9 +1155,11 @@
           .toUpperCase();
         const mail = "mailto:" + p.email;
 
-        document
-          .querySelectorAll(".mono")
-          .forEach((m) => (m.textContent = initials));
+        document.querySelectorAll(".mono").forEach((m) => {
+          m.innerHTML = p.photo
+            ? `<img src="${e(p.photo)}" alt="">`
+            : e(initials);
+        });
         $("hello").href = mail;
         $("hero-title").textContent = S.heroTitle || p.title;
         $("hero-sub").textContent = S.heroSub || D.headline || "";

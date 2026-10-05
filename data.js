@@ -16,11 +16,11 @@ window.CV = {
     phone: "+254 720 115 905",
     github: "https://github.com/Billrawknow",
     linkedin: "https://www.linkedin.com/in/bildad-ronoh/",
-    twitter: "https://x.com/RawknowCheru", // X (Twitter); "" hides the icon
-    website: "", // paste your Netlify link once it's live
-    photo: "", // optional: put photo.jpg in this folder and write "photo.jpg"
-    nationality: "", // Europass optional field, e.g. "Kenyan"; "" hides it
-    dateOfBirth: "", // Europass optional field, e.g. "15/03/1995"; "" hides it
+    twitter: "https://x.com/RawknowCheru",
+    website: "https://billrawknow.github.io",
+    photo: "photo.jpg",
+    nationality: "Kenyan",
+    dateOfBirth: "18/12/1997",
   },
 
   // Short intro on the portfolio home page (first person).
@@ -99,11 +99,11 @@ window.CV = {
     ],
 
     // Name wall. Remove any you're not allowed to name publicly.
-    builtForTitle: "Organisations I've built systems for",
+    builtForTitle: "Organizations I've built systems for",
     builtFor: [
       "Zain KSA",
       "Zain Jordan",
-      "Telkom Kenya",
+      "Telekom Kenya",
       "Meridian Power & Automation",
       "KIPS Hardware & Lubricants",
       "NCPWD",
